@@ -17,7 +17,7 @@
 
 <?php
 if ($_POST){
-    $con = mysqli_connect('localhost', 'root', 'total.21', 'insert_api');
+    $con = mysqli_connect('localhost', 'root', '', 'insert_api');
     
     $nome = $_POST['nome'];
     $email = $_POST['email'];

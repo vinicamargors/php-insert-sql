@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP Insert sql</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">   
+</head>
+<body>
+    <form method="post" action="script.php">
+        <label id="textlabel">
+            Nome<br>
+            <input type="text" minlength="2" name="nome" required>
+        </label>
+
+        <label id="textlabel">
+            Email<br>
+            <input type="text" minlength="5" name="email" required>
+        </label>
+
+        <label id="textlabel">
+            Senha<br>
+            <input type="password" minlength="8" name="senha" required>
+        </label><br>
+
+        <p id="pnome"><b>Sexo</b></p>
+        <label>
+            <input type="radio" name="sexo" value="m" required>Masculino
+        </label>
+
+        <label>
+            <input type="radio" name="sexo" value="f" required>Feminino
+        </label><br>
+
+        <input class="submit" type="submit" value="Adicionar usuário">
+    </form>
+</body>
+</html>
